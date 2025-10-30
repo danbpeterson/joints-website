@@ -27,6 +27,7 @@ nav a:hover {
 }
 
 
+
 header {
     position: relative;
     text-align: center;
@@ -36,11 +37,11 @@ header {
 }
 
 header h1 {
-    /* display: block;
-    background-color: rgba(255, 255, 255, 0.4); White with 40% transparency
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4); /* White with 40% transparency */
     padding: 20px;
-    border-radius: 8px; */
-    color: #fff
+    border-radius: 8px;
+    color: #000
 }
 
 header p {
@@ -49,7 +50,6 @@ header p {
     padding: 20px;
     border-radius: 8px;
 }
-
 
 
 .container {
