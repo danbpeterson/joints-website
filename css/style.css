@@ -35,7 +35,15 @@ header {
     color: #000; /* Text color */
 }
 
-header p, header h1 {
+header h1 {
+    /* display: block;
+    background-color: rgba(255, 255, 255, 0.4); White with 40% transparency
+    padding: 20px;
+    border-radius: 8px; */
+    color: #fff
+}
+
+header p {
     display: block;
     background-color: rgba(255, 255, 255, 0.4); /* White with 40% transparency */
     padding: 20px;
