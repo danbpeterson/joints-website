@@ -25,22 +25,29 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-header {
+
+
+/* header {
     background: #f4f4f4 url('../images/hiking-hero.jpg') center/cover no-repeat;
     text-align: center;
     padding: 80px 20px;
     position: relative;
 }
-.hero-text { 
-    color: #fff 
+ */
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 80px 20px;
+    background: url('../images/hiking-hero.jpg') no-repeat center center/cover; /* Optional background */
+    color: #000; /* Text color */
+}
+
+header p, header h1 {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.3); /* Lower opacity for blur effect */
-    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.4); /* White with 40% transparency */
+    padding: 20px;
     border-radius: 8px;
-    max-width: 600px;
-    margin: 0 auto;
-    backdrop-filter: blur(15px); /* ✅ Adds blur behind the box */
-    -webkit-backdrop-filter: blur(8px); /* ✅ Safari support */
 }
 
 
