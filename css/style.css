@@ -27,24 +27,16 @@ nav a:hover {
 }
 
 
-/* header {
-    background: #f4f4f4 url('../images/hiking-hero.jpg') center/cover no-repeat;
-    text-align: center;
-    padding: 80px 20px;
-    position: relative;
-}
- */
-
 header {
     position: relative;
     text-align: center;
     padding: 80px 20px;
     background: url('../images/hiking-hero.jpg') no-repeat center center/cover; /* Optional background */
-    color: #fff; /* Text color */
+    color: #000; /* Text color */
 }
 
 header p, header h1 {
-    display: inline-block;
+    display: block;
     background-color: rgba(255, 255, 255, 0.4); /* White with 40% transparency */
     padding: 20px;
     border-radius: 8px;
@@ -52,15 +44,6 @@ header p, header h1 {
 
 
 
-/* header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-header p {
-    font-size: 1.2rem;
-    max-width: 600px;
-    margin: 0 auto;
-} */
 .container {
     width: 90%;
     max-width: 1200px;
