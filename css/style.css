@@ -93,7 +93,7 @@ header p {
     height: auto;           /* Maintain aspect ratio */
     display: block;
     margin: 0 auto 10px;    /* Center and add spacing */
-    border-radius: 50%;     /* Makes the icon perfectly round */
+    border-radius: 8px;     /* 50% makes the icon perfectly round */
     background-color: #fff; /* Optional: adds contrast if icons have transparent backgrounds */
     padding: 10px;          /* Optional: adds space inside the circle */
     box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Optional: subtle shadow for style */
