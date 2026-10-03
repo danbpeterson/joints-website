@@ -407,12 +407,22 @@ header h2.active {
 
 @media (max-width: 900px) {
     .section-aahks {
-        text-align: center;
+        text-align: left;
     }
 
     .section-aahks .section-title,
-    .section-aahks > p {
-        text-align: center;
+    .section-aahks > p,
+    .section-aahks .card h3,
+    .section-aahks .card p {
+        text-align: left;
+    }
+
+    .section-aahks .card {
+        text-align: left;
+    }
+
+    .section-aahks .card .cta {
+        align-self: flex-start;
     }
 }
 
